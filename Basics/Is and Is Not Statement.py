@@ -14,3 +14,5 @@ if first_number is not third_number:
     print("Not same memory")
 else:
     print("Same memory")
+
+                             #this check is done by typecasting function
