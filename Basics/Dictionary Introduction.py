@@ -16,6 +16,28 @@ print(my_dict)
 del(my_dict[105])
 print(my_dict)
 
-#printing key & values from dictionary
+#printing key & values from dictionary, if the key-value is not present,this throws error
 for i in my_dict:
     print(i, my_dict[i])
+    
+#if the key-value is not present,this does not throw error
+for i in my_dict:
+    print(i,my_dict.get(i))
+    
+#my_dict.keys - returns all the keys in list
+keys_list = my_dict.keys()
+print(keys_list)
+
+#my_dict.values - returns all the values in list
+keys_values = my_dict.values()
+print(keys_values)
+
+
+#my_dict.items - returns all key values paris as tuples in list
+keys_value_pairs = my_dict.items()
+print(keys_value_pairs)
+
+for key,value in my_dict.items():
+    print(key,value)
+
+
