@@ -39,5 +39,13 @@ print(keys_value_pairs)
 
 for key,value in my_dict.items():
     print(key,value)
+    
+my_dict_copy = my_dict.copy()
+print(my_dict_copy)
 
 
+#add another dictionary to a dictionary
+dict1 = {1:"a",2:"b"}
+dict2 = {3:"c"}
+dict1.update(dict2)
+print(dict1)
