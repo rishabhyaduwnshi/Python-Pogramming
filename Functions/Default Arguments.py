@@ -1,4 +1,4 @@
-#functions indtroduction
+#functions introduction
 
 #default 
 #default arguments are created only once
