@@ -16,6 +16,7 @@ def consumer(queue):
         print("Consumer : ", x)
         sleep(0.2)
 
+#queue module has all the functionality of acquiring the lock and releasing it internally so we don't have to handle it  
 q = Queue()
 
 t1 = Thread(target = lambda:producer(q))
